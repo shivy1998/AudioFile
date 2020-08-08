@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:padding="15dp"
+    >
+    <Button
+        android:id="@+id/btnStart"
+        android:text="Start"
+        android:textSize="20dp"
+        android:textColor="#442F6A"
+        android:background="#ECB3A1"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/btnPause"
+        android:text="Pause"
+        android:textSize="20dp"
+        android:background="#725F95"
+        android:textColor="#ECB3A1"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+</LinearLayout>
